@@ -1,0 +1,47 @@
+:root {
+  --MediumBlue : #0000CD;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --DarkGreen: #006400;
+  --LightSteelBlue : #B0C4DE;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--LightSteelBlue) !important;
+  color: var(--BlueViolet) !important;
+}
+
+.text-title {
+  font-family: 'Permanent Marker',cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--DarkGreen);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.btn-black {
+  background: transparent;
+  text-transfor: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
